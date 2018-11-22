@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["es2015", "dom"],
+        "module": "esnext",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "strict": true,
+        "moduleResolution": "node",
+    },
+    "include": ["./shims/**/*", "./src/**/*"],
+    "exclude": [
+        "node_modules"
+    ]
+}
